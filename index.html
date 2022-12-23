@@ -7,6 +7,19 @@
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
-    
+    <script>
+        const computerChoice = Math.floor(Math.random() * 3);
+        
+        function getComputerChoice() {
+            if (computerChoice === 0) {
+                return console.log("The computer chooses Rock.");
+            } else if (computerChoice === 1) {
+                return 'The computer chooses Paper';
+            } else if (computerChoice === 2) 
+               return 'The computer chooses Scissors.'
+        
+        }
+
+        </script>
 </body>
 </html>
